@@ -61,27 +61,18 @@ const product = [
     ]
   },
   {
+     id: "3ebe75dc-64d2-4137-8860-1f5a963e534b",
   image:'images/products/hari.png',
   name:'Hari darshan',
   rating:{
     stars:5,
     count:1
   },
-  priceCents:600000
-  },
-  {
-    id: "3ebe75dc-64d2-4137-8860-1f5a963e534b",
-    image: "images/products/6-piece-white-dinner-plate-set.jpg",
-    name: "6 Piece White Dinner Plate Set",
-    rating: {
-      stars: 4,
-      count: 37
-    },
-    priceCents: 2067,
-    keywords: [
-      "plates",
-      "kitchen",
-      "dining"
+  priceCents:600000,
+  keywords: [
+      "Bahi",
+      "dada",
+      "don"
     ]
   },
   {
@@ -94,7 +85,7 @@ const product = [
     },
     priceCents: 3499,
     keywords: [
-      "kitchen",
+      "dada",
       "cookware"
     ]
   },
