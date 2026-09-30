@@ -1,4 +1,4 @@
-const products = [
+const product = [
   {
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
     image: "images/products/athletic-cotton-socks-6-pairs.jpg",
@@ -59,6 +59,15 @@ const products = [
       "kitchen",
       "appliances"
     ]
+  },
+  {
+  image:'images/products/hari.png',
+  name:'Hari darshan',
+  rating:{
+    stars:5,
+    count:1
+  },
+  priceCents:600000
   },
   {
     id: "3ebe75dc-64d2-4137-8860-1f5a963e534b",
