@@ -8,14 +8,17 @@ import {loadCart} from '../data/cart.js';
 // import '../data/backend-practice.js';
 
 async function laodpage() {
-  await loadProductFetch();
+  try {await loadProductFetch();
 
   const value=await new Promise((resolve)=>{
      
-    loadCart(()=>{
-      resolve('value3');
-    });
-  });
+       loadCart(()=>{
+          resolve('value3');
+       });
+     });
+   } catch(error){
+    console.log('unexpected error, please try again');
+   }
 
     renderOrderSummary();
     renderPaymentSummary();
