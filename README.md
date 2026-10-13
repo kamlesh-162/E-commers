@@ -15,12 +15,6 @@ A responsive e-commerce website inspired by Amazon, built using HTML, CSS, and V
 - HTML5
 - CSS3
 - JavaScript (ES6+)
-- DOM Manipulation
-- JavaScript Modules (`import` / `export`)
-- Promises and `async/await`
-- Fetch API and REST APIs
-- Local Storage
-- Day.js for date handling
 - Git and GitHub
 
 
@@ -34,15 +28,7 @@ A responsive e-commerce website inspired by Amazon, built using HTML, CSS, and V
 git clone https://github.com/kamlesh-162/E-commers.git
 ```
 
-### 2. Open the project
-
-Open the `javascript-amazon-project` folder in Visual Studio Code.
-
-### 3. Run the website
-
-Use the **Live Server** extension in VS Code to launch the HTML pages.
-
-For example, open `index.html` using Live Server to view the product page.
+Demo:-
 
 
 
@@ -64,4 +50,4 @@ Created for educational and personal learning purposes.
 
 ---
 
-**Developed by Kamlesh Shinde**
+**Developed by Kamlesh**
